@@ -1,0 +1,53 @@
+/*we have 3 element now h1 h2 p*/
+
+* {
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    background-color: aqua;
+    border: 3px solid black;
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-shadow: 2px 2px 5px green;
+}
+
+h2 {
+    
+    margin-left: 10px;
+    
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+    margin-right: 20px;
+    line-height: 1.5;
+    
+    
+}   
+
+a {
+    text-decoration: none;
+    border: 2px solid green;
+    /*background-color: blueviolet;*/
+    padding: 5px;
+}
+a:hover {
+    font-size: large;
+    border: 6px solid greenyellow;
+    color: red;
+}
+
+a:visited {
+    color: red;
+
+}
+
+div.fix {
+    position: fixed;
+    background-color: aqua;
+    border: 2px solid red;
+}
